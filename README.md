@@ -46,7 +46,7 @@ cargo run -- list
 或安装 CLI：
 
 ```bash
-cargo install --path /path/to/rust-tuiframe --force
+cargo install --path /path/to/rust-tuiframe/tuiframe-cli --force
 ```
 
 ### 常用命令 (Commands)
