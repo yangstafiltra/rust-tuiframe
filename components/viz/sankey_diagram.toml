@@ -1,0 +1,14 @@
+name = "sankey_diagram"
+category = "viz"
+description = "Sankey flow diagram for energy or material flow visualization / 桑基流程图，用于能量或物质流可视化"
+dependencies = []
+features = ["multi-level-flows", "flow-width-proportional", "node-labels"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Sankey)
+}'''
+reference_apps = ["bandwhich"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Sankey)
+}'''

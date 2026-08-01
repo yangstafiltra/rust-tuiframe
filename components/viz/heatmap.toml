@@ -1,0 +1,14 @@
+name = "heatmap"
+category = "viz"
+description = "Color-coded heatmap matrix for data intensity visualization / 颜色编码热力图矩阵，用于数据强度可视化"
+dependencies = []
+features = ["color-gradient", "custom-labels", "asymmetric"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Heatmap)
+}'''
+reference_apps = ["bottom", "bandwhich"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Heatmap)
+}'''

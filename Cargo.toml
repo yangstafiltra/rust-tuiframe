@@ -1,0 +1,3 @@
+[workspace]
+members = ["tuiframe-core", "tuiframe-cli", "tuiframe-viz"]
+resolver = "2"

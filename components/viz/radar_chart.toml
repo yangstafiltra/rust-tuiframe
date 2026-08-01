@@ -1,0 +1,14 @@
+name = "radar_chart"
+category = "viz"
+description = "Radar/spider chart for multi-dimensional comparison / 雷达/蜘蛛图，用于多维比较"
+dependencies = []
+features = ["multiple-series", "filled-area", "axis-labels"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Radar)
+}'''
+reference_apps = ["zenith"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Radar)
+}'''

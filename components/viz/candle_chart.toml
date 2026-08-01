@@ -1,0 +1,14 @@
+name = "candle_chart"
+category = "viz"
+description = "Candlestick chart for financial OHLC data / K线图，用于金融 OHLC 数据"
+dependencies = []
+features = ["ohlc-display", "moving-average-overlay", "volume-bars"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Candle)
+}'''
+reference_apps = ["cointop"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Candle)
+}'''

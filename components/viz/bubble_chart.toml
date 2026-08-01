@@ -1,0 +1,14 @@
+name = "bubble_chart"
+category = "viz"
+description = "Bubble chart with variable-size points for three-dimensional data / 气泡图，含可变大小点，用于三维数据"
+dependencies = []
+features = ["size-encoding", "color-encoding", "label-overlay"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Bubble)
+}'''
+reference_apps = ["bottom", "cointop"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Bubble)
+}'''

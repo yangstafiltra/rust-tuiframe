@@ -1,0 +1,14 @@
+name = "network_graph"
+category = "viz"
+description = "Node-link diagram for graph visualization / 网络关系图"
+dependencies = ["canvas", "node_graph"]
+features = ["graph", "node", "edge", "network", "force"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Network)
+}'''
+reference_apps = ["d3js", "cytoscape"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Network)
+}'''

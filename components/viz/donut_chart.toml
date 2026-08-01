@@ -1,0 +1,14 @@
+name = "donut_chart"
+category = "viz"
+description = "Ring-shaped chart with center label / 环形图"
+dependencies = ["pie_chart"]
+features = ["donut", "ring", "center_label", "proportion"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Donut)
+}'''
+reference_apps = ["d3js", "grafana"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Donut)
+}'''

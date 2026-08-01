@@ -1,0 +1,14 @@
+name = "box_plot"
+category = "viz"
+description = "Box-and-whisker plot for statistical distributions / 箱线图，用于统计分布"
+dependencies = []
+features = ["outlier-markers", "notched-variant", "horizontal-layout"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::BoxPlot)
+}'''
+reference_apps = ["bottom", "kmon"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::BoxPlot)
+}'''

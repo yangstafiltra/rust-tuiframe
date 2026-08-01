@@ -1,0 +1,14 @@
+name = "violin_plot"
+category = "viz"
+description = "Violin plot showing data distribution density / 小提琴图"
+dependencies = ["box_plot"]
+features = ["density", "distribution", "violin", "stats"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Violin)
+}'''
+reference_apps = ["matplotlib", "ggplot"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Violin)
+}'''

@@ -1,0 +1,11 @@
+name = "canvas"
+category = "viz"
+description = "Draw arbitrary shapes using braille/dot characters / 使用盲文/点字符绘制任意形状"
+dependencies = []
+features = ["line", "circle", "rectangle", "map", "braille", "labels"]
+example = '''let area = f.area();
+let canvas = Canvas::default().block(Block::bordered().title("Canvas")).x_bounds([0.0, 100.0]).y_bounds([0.0, 100.0]).paint(|ctx| { ctx.draw(&ratatui::widgets::canvas::Line { x1: 10.0, y1: 10.0, x2: 90.0, y2: 90.0, color: Color::Cyan }); ctx.draw(&Circle { x: 50.0, y: 50.0, radius: 30.0, color: Color::Yellow }); }); f.render_widget(canvas, area)'''
+reference_apps = []
+snippet = '''
+let canvas = Canvas::default().block(Block::bordered().title("Canvas")).x_bounds([0.0, 100.0]).y_bounds([0.0, 100.0]).paint(|ctx| { ctx.draw(&ratatui::widgets::canvas::Line { x1: 10.0, y1: 10.0, x2: 90.0, y2: 90.0, color: Color::Cyan }); ctx.draw(&Circle { x: 50.0, y: 50.0, radius: 30.0, color: Color::Yellow }); }); f.render_widget(canvas, area)
+'''

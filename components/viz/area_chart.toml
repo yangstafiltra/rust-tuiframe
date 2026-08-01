@@ -1,0 +1,14 @@
+name = "area_chart"
+category = "viz"
+description = "Filled area chart showing cumulative trends / 填充面积图，显示累积趋势"
+dependencies = []
+features = ["filled-below", "gradient-fill", "multi-series"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Area)
+}'''
+reference_apps = ["bottom", "zenith"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Area)
+}'''

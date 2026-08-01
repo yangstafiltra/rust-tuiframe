@@ -1,0 +1,14 @@
+name = "funnel_chart"
+category = "viz"
+description = "Funnel chart for conversion analysis / 漏斗图，用于转化分析"
+dependencies = []
+features = ["percentage-labels", "color-steps", "custom-titles"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Funnel)
+}'''
+reference_apps = []
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Funnel)
+}'''

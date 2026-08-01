@@ -1,0 +1,9 @@
+[package]
+name = "tuiframe-viz"
+version = "0.1.0"
+edition = "2024"
+description = "High-quality interactive chart engine for tuiframe: handwritten renderers, PPT-style transitions, preset + custom data input."
+
+[dependencies]
+ratatui = "0.30"
+crossterm = "0.29"

@@ -1,0 +1,14 @@
+name = "bullet_chart"
+category = "viz"
+description = "Bullet chart for performance against a target / 子弹图，用于与目标对比的性能展示"
+dependencies = []
+features = ["comparative-markers", "qualitative-ranges", "vertical-layout"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Bullet)
+}'''
+reference_apps = ["gitui", "bottom"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Bullet)
+}'''

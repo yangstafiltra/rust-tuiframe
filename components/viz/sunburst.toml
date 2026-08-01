@@ -1,0 +1,14 @@
+name = "sunburst"
+category = "viz"
+description = "Radial hierarchy chart with concentric ring levels / 旭日图"
+dependencies = ["pie_chart"]
+features = ["radial", "hierarchy", "concentric", "sunburst"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Sunburst)
+}'''
+reference_apps = ["d3js", "plotly"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Sunburst)
+}'''

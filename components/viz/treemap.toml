@@ -1,0 +1,14 @@
+name = "treemap"
+category = "viz"
+description = "Treemap for hierarchical proportion display / 矩形树图，用于层级比例显示"
+dependencies = []
+features = ["squarified-layout", "nested-levels", "value-weighted"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Treemap)
+}'''
+reference_apps = ["ncdu"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Treemap)
+}'''

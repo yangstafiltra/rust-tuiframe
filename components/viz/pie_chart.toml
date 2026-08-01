@@ -1,0 +1,13 @@
+name = "pie_chart"
+category = "viz"
+description = "Pie chart with labeled segments and percentage display / 带标签和百分比显示的饼图"
+dependencies = ["block"]
+features = ["high-res", "custom-symbols", "labels", "percentage", "colors"]
+example = '''let area = f.area();
+let para = Paragraph::new("  A: 40%\n  B: 30%\n  C: 20%\n  D: 10%").block(Block::default().borders(Borders::ALL).title(" Pie Chart "));
+f.render_widget(para, area);'''
+reference_apps = []
+snippet = '''
+let para = Paragraph::new("  A: 40%\n  B: 30%\n  C: 20%\n  D: 10%").block(Block::default().borders(Borders::ALL).title(" Pie Chart "));
+f.render_widget(para, area);
+'''

@@ -1,0 +1,14 @@
+name = "scatter_plot"
+category = "viz"
+description = "Scatter plot for point data visualization / 散点图，用于点数据可视化"
+dependencies = []
+features = ["point-markers", "regression-line", "zoomable"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Scatter)
+}'''
+reference_apps = ["bottom", "zenith"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Scatter)
+}'''

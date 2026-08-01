@@ -1,0 +1,10 @@
+name = "node_graph"
+category = "viz"
+description = "Node graph visualization using ratatui Canvas / 基于 ratatui Canvas 的节点图可视化"
+dependencies = ["canvas"]
+features = ["draggable-nodes", "connections", "ports", "zoom", "pan"]
+example = '''let area = f.area();
+let canvas = Canvas::default().block(Block::bordered().title("Node Graph")).x_bounds([0.0, 100.0]).y_bounds([0.0, 100.0]).paint(|ctx| { ctx.draw(&ratatui::widgets::canvas::Line { x1: 20.0, y1: 20.0, x2: 80.0, y2: 50.0, color: Color::Cyan }); ctx.draw(&Circle { x: 20.0, y: 20.0, radius: 5.0, color: Color::Yellow }); ctx.draw(&Circle { x: 80.0, y: 50.0, radius: 5.0, color: Color::Magenta }); }); f.render_widget(canvas, area)'''
+snippet = '''
+let canvas = Canvas::default().block(Block::bordered().title("Node Graph")).x_bounds([0.0, 100.0]).y_bounds([0.0, 100.0]).paint(|ctx| { ctx.draw(&ratatui::widgets::canvas::Line { x1: 20.0, y1: 20.0, x2: 80.0, y2: 50.0, color: Color::Cyan }); ctx.draw(&Circle { x: 20.0, y: 20.0, radius: 5.0, color: Color::Yellow }); ctx.draw(&Circle { x: 80.0, y: 50.0, radius: 5.0, color: Color::Magenta }); }); f.render_widget(canvas, area)
+'''

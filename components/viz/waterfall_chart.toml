@@ -1,0 +1,14 @@
+name = "waterfall_chart"
+category = "viz"
+description = "Waterfall chart for sequential contribution analysis / 瀑布图，用于顺序贡献分析"
+dependencies = []
+features = ["running-total", "color-coded-deltas", "subtotal-markers"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Waterfall)
+}'''
+reference_apps = []
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Waterfall)
+}'''

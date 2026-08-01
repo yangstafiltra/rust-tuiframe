@@ -1,0 +1,14 @@
+name = "gantt_chart"
+category = "viz"
+description = "Gantt chart for project timeline visualization / 甘特图，用于项目时间线可视化"
+dependencies = []
+features = ["dependency-arrows", "milestone-markers", "progress-highlight"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Gantt)
+}'''
+reference_apps = ["taskwarrior-tui"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Gantt)
+}'''

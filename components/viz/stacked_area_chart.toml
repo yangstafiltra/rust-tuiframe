@@ -1,0 +1,14 @@
+name = "stacked_area_chart"
+category = "viz"
+description = "Stacked area chart for part-to-whole trends / 堆叠面积图，用于部分与整体趋势"
+dependencies = []
+features = ["stacked-layers", "percentage-mode", "stream-mode"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::StackedArea)
+}'''
+reference_apps = ["bottom", "zenith"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::StackedArea)
+}'''

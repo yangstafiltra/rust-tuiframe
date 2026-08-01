@@ -1,0 +1,14 @@
+name = "parcoords"
+category = "viz"
+description = "Parallel coordinates plot for multi-dim data / 平行坐标图"
+dependencies = []
+features = ["parallel", "coordinates", "multidim", "axis"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Parcoords)
+}'''
+reference_apps = ["plotly", "vega"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Parcoords)
+}'''

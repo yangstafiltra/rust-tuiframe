@@ -1,0 +1,14 @@
+name = "histogram"
+category = "viz"
+description = "Histogram for frequency distribution visualization / 直方图，用于频率分布可视化"
+dependencies = []
+features = ["auto-binning", "custom-buckets", "vertical-or-horizontal"]
+example = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Histogram)
+}'''
+reference_apps = ["gitui", "bottom"]
+snippet = '''
+fn main() -> std::io::Result<()> {
+    tuiframe_viz::preview(tuiframe_viz::ChartKind::Histogram)
+}'''
