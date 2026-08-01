@@ -39,7 +39,7 @@
 
 ```bash
 git clone https://github.com/yangstafiltra/rust-tuiframe.git
-cd tuiframe
+cd rust-tuiframe
 cargo run -- list
 ```
 
