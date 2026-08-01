@@ -53,14 +53,14 @@ cargo install --path /path/to/rust-tuiframe/tuiframe-cli --force
 
 | Command | Description |
 |---------|-------------|
-| `tuiframe list` | Browse all components by category |
-| `tuiframe list --search chart` | Search by keyword (name/category/description) |
-| `tuiframe info <name>` | Show component details + example code |
-| `tuiframe code <name>` | Print the example code (pipeable) |
-| `tuiframe preview <name>` | Run a component live (`q` to quit) |
-| `tuiframe preview <easing>` | Preview a bezier easing curve |
-| `tuiframe browse` | Interactive TUI browser (j/k to navigate) |
-| `tuiframe validate` | Validate component dependency integrity |
+| `tuiframe-cli list` | Browse all components by category |
+| `tuiframe-cli list --search chart` | Search by keyword (name/category/description) |
+| `tuiframe-cli info <name>` | Show component details + example code |
+| `tuiframe-cli code <name>` | Print the example code (pipeable) |
+| `tuiframe-cli preview <name>` | Run a component live (`q` to quit) |
+| `tuiframe-cli preview <easing>` | Preview a bezier easing curve |
+| `tuiframe-cli browse` | Interactive TUI browser (j/k to navigate) |
+| `tuiframe-cli validate` | Validate component dependency integrity |
 
 ---
 
