@@ -53,14 +53,14 @@ cargo install --path /path/to/rust-tuiframe/tuiframe-cli --force
 
 | 命令 | 说明 (Description) |
 |------|--------------------|
-| `tuiframe list` | 按分类浏览全部组件 |
-| `tuiframe list --search chart` | 关键字搜索（名称/分类/描述） |
-| `tuiframe info <name>` | 查看组件详情 + 示例代码 |
-| `tuiframe code <name>` | 输出示例代码（可管道输出） |
-| `tuiframe preview <name>` | 实时运行组件（`q` 退出） |
-| `tuiframe preview <easing>` | 预览贝塞尔缓动曲线 |
-| `tuiframe browse` | 交互式 TUI 浏览器（j/k 导航） |
-| `tuiframe validate` | 校验组件依赖完整性 |
+| `tuiframe-cli list` | 按分类浏览全部组件 |
+| `tuiframe-cli list --search chart` | 关键字搜索（名称/分类/描述） |
+| `tuiframe-cli info <name>` | 查看组件详情 + 示例代码 |
+| `tuiframe-cli code <name>` | 输出示例代码（可管道输出） |
+| `tuiframe-cli preview <name>` | 实时运行组件（`q` 退出） |
+| `tuiframe-cli preview <easing>` | 预览贝塞尔缓动曲线 |
+| `tuiframe-cli browse` | 交互式 TUI 浏览器（j/k 导航） |
+| `tuiframe-cli validate` | 校验组件依赖完整性 |
 
 ---
 
