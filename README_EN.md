@@ -34,7 +34,14 @@ Every chart is **real, compilable, interactive code** — not a placeholder exam
 - The preview is the **exact same real code** you get from `tuiframe code <name>` — what you see is what you get
 
 ---
+## Video
 
+https://github.com/user-attachments/assets/6b418600-45cf-4104-a469-27b4c8876b71
+
+
+https://github.com/user-attachments/assets/c4b60cb7-02b4-4e71-8a45-9100b809d46d
+
+---
 ## 📦 Quick Start
 
 ```bash
