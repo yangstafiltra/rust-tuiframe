@@ -38,7 +38,7 @@
 ## 📦 快速开始 (Quick Start)
 
 ```bash
-git clone <repo>
+git clone https://github.com/yangstafiltra/rust-tuiframe.git
 cd tuiframe
 cargo run -- list
 ```
@@ -46,8 +46,7 @@ cargo run -- list
 或安装 CLI：
 
 ```bash
-cargo install --path tuiframe-cli
-TUIFRAME_DIR=/path/to/tuiframe tuiframe browse
+cargo install --path /path/to/rust-tuiframe --force
 ```
 
 ### 常用命令 (Commands)
@@ -169,6 +168,8 @@ cargo run -- validate             # 依赖图完整性
 - [ ] 更多图表类型与变体
 - [ ] 自定义主题与配色方案
 - [ ] 更多组件分类（Layout / Navigation / Feedback…）
+
+## 🤖 本项目由ai生成
 
 ## 📄 许可证 (License)
 
